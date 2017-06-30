@@ -34,6 +34,7 @@
     font-size: $font-big;
     line-height: $font-big;
     color:$_white;
+    padding:0 10px;
   }
 
   .c-counter__value {
@@ -50,4 +51,9 @@
   .c-cart__content button{
     color:$_black;
   }
+  .c-cart__content button:hover{
+    color:white;
+    background-color:black;
+    transition: all 0.6s ease;
+    }
 </style>
